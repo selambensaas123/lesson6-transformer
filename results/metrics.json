@@ -1,0 +1,56 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 4.457367415615049,
+        "accuracy": 0.1581998007796262,
+        "tokens": 127497
+      },
+      "val": {
+        "loss": 3.562543040906574,
+        "accuracy": 0.22253426947509194,
+        "tokens": 14955,
+        "perplexity": 35.25273239149716
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 3.2584497028759745,
+        "accuracy": 0.23163682282720377,
+        "tokens": 127497
+      },
+      "val": {
+        "loss": 3.0113572896423646,
+        "accuracy": 0.253226345703778,
+        "tokens": 14955,
+        "perplexity": 20.31495449856829
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 2.899903244697976,
+        "accuracy": 0.26681412111657526,
+        "tokens": 127497
+      },
+      "val": {
+        "loss": 2.782524747092841,
+        "accuracy": 0.2868605817452357,
+        "tokens": 14955,
+        "perplexity": 16.159768816691905
+      }
+    }
+  ],
+  "examples": {
+    "Alice was": {
+      "sample": "Alice wasind t the de mo ing saing herore8oled rer t oe ve",
+      "beam": "Alice was the the the the the the the the the the the the the the the the the the the the the the the the the"
+    },
+    "The Rabbit": {
+      "sample": "The Rabbithe atheoupa n on'lr n_asicathe d as' th,\ufffdr s mtas\ufffde t;lese atheregitoe and re atheer she thee of ond",
+      "beam": "The Rabbithe the the the the the the the the the the the the the the the the the the the the the the the the t"
+    }
+  }
+}

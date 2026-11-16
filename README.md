@@ -19,3 +19,15 @@ from torch.amp import autocast
 with autocast(device_type='cuda', dtype=torch.float16):
     logits = model(src_ids, tgt_ids)
 ```
+## Домашняя работа
+
+```powershell
+python -m pip install torch matplotlib
+python -m unittest -v
+python train_generator.py
+python chat.py
+```
+
+Генератор использует локальный текст [data/alice.txt](data/alice.txt). Команда обучения сохраняет веса, график и метрики в results/. Для выхода из чата введите quit. Метод generate поддерживает сэмплирование и beam search.
+
+[Подробный отчёт](REPORT.md)
